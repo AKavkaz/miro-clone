@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { useOrganization } from "@clerk/nextjs";
 import { useApiMutation } from "@/hooks/use-api-mutation";
